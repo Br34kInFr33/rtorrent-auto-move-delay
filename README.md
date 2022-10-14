@@ -5,6 +5,6 @@ After going through https://github.com/rakshasa/rtorrent/issues/547 I ran into a
 
 Just copy text from rtorrent.txt file and past it at the bottom of your .rtorrent.rc file.  No need to add a config.d folder.
 
-Make sure to change the delay (which is in seconds), and change the complete directory to your needs.  
+Make sure to change the delay (which is in seconds), and the complete directory to your needs.  
 method.insert.value = event.download.finished_delayed.interval, **600**  
 method.insert = d.get_finished_dir, simple, "cat=**~/Download/**,$d.custom1="
